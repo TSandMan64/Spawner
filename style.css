@@ -1,0 +1,48 @@
+.page {
+    display: flex;
+}
+
+nav {
+    max-width: 150px;
+    border-style: dashed;
+    border-color: red;
+    border-width: 1px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 50px 0px 0px 32px;
+    border-style: dashed;
+    border-color: red;
+    border-width: 1px;
+}
+
+.wellcome {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    border-style: dashed;
+    border-color: red;
+    border-width: 1px;
+}
+
+.wellcome-title {
+    font-size: 60px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    border-style: dashed;
+    border-color: red;
+    border-width: 1px;
+}
+
+.welcome-text {
+    max-width: 350PX;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    border-style: dashed;
+    border-color: red;
+    border-width: 1px;
+}
