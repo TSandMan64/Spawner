@@ -1,119 +1,146 @@
-.page {
+.Page {
     display: flex;
     flex-direction: column;
-    background-color: blueviolet;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(44, 44, 44);
+    align-items: center;
+    background-image: url(images/LOGO\ SPMW.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-nav {
-    max-width: 150px;
-    margin-top: 50px;
-    border-style: dashed;
-    border-color: red;
-    border-width: 1px;
-    color: white;
-}
-
-header {
-    display: flex;
+Header {
     width: 100%;
-    justify-content:space-around;
-    margin: 0px 0px 0px 32px;
-    padding: 0px 0px 0px 32px;
-    border-style: dashed;
-    border-color: red;
-    border-width: 1px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    overflow: auto;
+}
+
+footer {
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.footer_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.log {
+    padding: 20px 30px;
+    color: white;
     background-color: black;
 }
 
-.OrganizeWelcome{
-    display: flex;
-    width: 100%;
-    margin: 0;
-}
-
-.wellcome {
-    max-width: 500px;
-    display: flex;
-    flex-direction: column;
-    border-style: dashed;
-    border-color: red;
-    border-width: 1px;
-}
-
-.wellcome-title {
-    font-size: 60px;
-    font-weight: 800;
-    font-family: 'Times New Roman', Times, serif;
-    border-style: dashed;
-    border-color: red;
-    border-width: 1px;
-    color: white;
-}
-
-.welcome-text {
-    max-width: 350PX;
-    font-size: 20px;
-    font-weight: 800;
-    font-family: 'Times New Roman', Times, serif;
-    border-style: dashed;
-    border-color: red;
-    border-width: 1px;
-    color: white;
-}
-.Card{
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-    width: auto;
-    height: auto;
-    margin: 0px 20px 20px 20px;
-    border-style: dashed;
-    border-color: red;
-    border-width: 1px;
-    color: white;
-    align-items: center;    
-}
-.blockCard
-{
+.navbar {
     display: flex;
     flex-direction: row;
-    height: 250px; /* Alto fijo */
-    overflow: auto; /* Habilita el scroll */
-    border: 1px solid #ccc; /* Borde para distinguir la zona */
+    list-style: none;
+    justify-content: space-around;
+}
+
+.navbarLi {
     padding: 10px;
 }
 
-.Img_Card
-{
-    width: 200px;
+.navbarLi:hover {
+    background-color: #555;
 }
-.contenido_main
-{
-    width: 95%;
-    align-self: center;
-    text-align: center;
 
-}
-.articulo
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    max-width: 60%;
-    height: 500px;
-    align-self: center;
-    border-style: double;
-    border-width: 3px;
-    border-color: aliceblue;
-
-}
-.seccion-articulos
-{
-    width: 100%;
-    display: flex;
+.blockCards {
     justify-content: center;
-    flex-direction: column;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.438);
     border-style: double;
-    border-width: 3px;
-    border-color: aliceblue;
+    border-color: aqua;
+    border-width: 5px;
+    gap: 5px;
+}
+
+.Card1 {
+    text-align: center;
+    width: 49%;
+}
+
+.divCard2 {
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 49%;
+}
+
+.Card2 {
+    width: 49%;
+    text-align: center;
+}
+
+.Card3 {
+    width: 49%;
+    text-align: center;
+}
+
+.Card4 {
+    width: 49%;
+    text-align: center;
+}
+
+.Card5 {
+    width: 49%;
+    text-align: center;
+}
+
+.divCard3 {
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 99%;
+    justify-content: space-around;
+}
+
+.Card6 {
+    width: 19%;
+    text-align: center;
+}
+
+.Card7 {
+    width: 19%;
+    text-align: center;
+}
+
+.Card8 {
+    width: 19%;
+    text-align: center;
+}
+
+.Card9 {
+    width: 19%;
+    text-align: center;
+}
+
+.Card10 {
+    width: 19%;
+    text-align: center;
+}
+
+.img_card {
+    width: 100%;
 }
