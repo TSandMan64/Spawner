@@ -236,3 +236,14 @@ footer {
 {
     height: 100%;
 }
+@media (max-width: 480px)
+{
+    .navbar
+    {
+        flex-wrap: wrap;
+    }
+    .footer_section
+    {
+        flex-wrap: wrap;
+    }
+}
